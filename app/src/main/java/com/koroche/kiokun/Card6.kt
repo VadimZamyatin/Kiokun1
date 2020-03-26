@@ -16,7 +16,7 @@ class Card6 : AppCompatActivity() {
         startActivity(intent)
     }
     fun next1(v : View){
-        val intent = Intent(this, Card5::class.java)
+        val intent = Intent(this, Card9::class.java)
         startActivity(intent)
     }
     fun next2(v : View){

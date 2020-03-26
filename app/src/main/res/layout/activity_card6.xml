@@ -37,6 +37,7 @@
         android:layout_width="108dp"
         android:layout_height="51dp"
         android:background="@drawable/dom3"
+        android:onClick="next"
         app:layout_constraintBottom_toBottomOf="@+id/imageView4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.491"
