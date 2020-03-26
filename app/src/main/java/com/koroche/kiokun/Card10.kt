@@ -5,17 +5,13 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 
-class Card8 : AppCompatActivity() {
+class Card10 : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_card8)
+        setContentView(R.layout.activity_card10)
     }
     fun next(v : View){
-        val intent = Intent(this, Card10::class.java)
-        startActivity(intent)
-    }
-    fun next1(v : View){
         val intent = Intent(this, Card5::class.java)
         startActivity(intent)
     }
